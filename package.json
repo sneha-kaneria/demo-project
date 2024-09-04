@@ -1,15 +1,23 @@
 {
     "name": "demo-project",
     "version": "1.0.0",
-    "description": "A brief description of your project",
+    "description": "A description of my project",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
     },
-    "keywords": [],
-    "author": "Dev",
+    "keywords": [
+      "node",
+      "npm"
+    ],
+    "author": "Your Name",
     "license": "ISC",
-    "dependencies": {},
-    "devDependencies": {}
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "jest": "^26.6.3"
+    }
   }
   
